@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "825576420581",
+    "project_id": "exaproject-3e3a2",
+    "storage_bucket": "exaproject-3e3a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825576420581:android:68482fb1beae8aca4d100c",
+        "android_client_info": {
+          "package_name": "com.exaproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825576420581-lprl5cmbm1ruh24pjhtihf2qjnt97o2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1x8TAmzlDJbyTt16QwUDm-oYRJMlGphw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825576420581-lprl5cmbm1ruh24pjhtihf2qjnt97o2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+// const [newData, setNewData] = useState([]);
+//   const [updatedPurchasedItem, setUpdatedPurchasedItem] = useState([]);
+
+//   useEffect(() => {
+//     setNewData([...cartData]);
+//     console.log('updated new data',newData)
+//     // setUpdatedPurchasedItem([...itemPurchased]);
+//   }, [route])
+
+//   const deleteItem = (key, cost) => {
+//     console.log('cart item to delete:',cartData)
+//     console.log("Inside delete function");
+//     console.log(key);
+//     const newData = [...cartData];
+//     const prevIndex = newData.findIndex(item => item.key === key);
+//     newData.splice(prevIndex, 1);
+//     setCartData(newData);
+//     console.log('updated cart list: ',cartData)
+//     setCartBill(cartBill - cost);
+//   }
+
+
+//   const updateOderHistory = (element) => {
+//     // console.log('inside order history function: ', element);
+//     updatedPurchasedItem.splice(0, 0, element);
+//     setItemPurchased(updatedPurchasedItem)
+//   }
+
+//   const placeOrder = () => {
+//     newData.forEach(element => {
+//       console.log('newData:', newData)
+//       console.log(element)
+//       const key = element.key;
+//       console.log(key)
+//       const prevIndex = cartData.findIndex(item => item.key === key);
+//       console.log('index: ', prevIndex)
+//       if (prevIndex != -1) {
+//         console.log('about to splice');
+//         newData.splice(prevIndex, 1);
+//         setCartData(newData);
+//         // console.log('buyed items: ', updatedPurchasedItem)
+//         // updateOderHistory(element)
+//         // setItemPurchased([...updatedPurchasedItem, element])
+//       }
+//       setCartBill(0);
+//       // console.log('buyed items: ', updatedPurchasedItem)
+//       // setItemPurchased([...updatedPurchasedItem, element])
+//     });
